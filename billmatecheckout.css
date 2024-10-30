@@ -1,0 +1,55 @@
+.billmate-checkout-another-payment-wrapper {
+    clear: both;
+    display: block;
+    float: right;
+    margin-bottom: 20px;
+}
+
+.cart_totals{
+    margin: 30px 0 50px 0
+}
+
+#billmateCheckoutOverlay {
+    display: none;
+}
+
+.billmate-checkout-overlay #billmateCheckoutOverlay {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    z-index: 9000;
+}
+
+.billmate-checkout-overlay #checkoutdiv {
+    z-index: 9001;
+    position: relative;
+    overflow: hidden;
+}
+
+#checkoutdiv {
+    clear: both;
+    display: block;
+    overflow: auto;
+    position: relative;
+}
+
+form.woocommerce-shipping-calculator,
+.wc-proceed-to-checkout {
+    display:none!important;
+    height: 0px !important;
+    margin: 0px !important;
+    overflow: hidden !important;
+    padding: 0px !important;
+    position: relative !important;
+    width: 0px !important;
+}
+
+.woocommerce table.cart td.actions .input-text,
+.woocommerce-page #content table.cart td.actions .input-text,
+.woocommerce-page table.cart td.actions .input-text{
+    width: 140px !important
+}
